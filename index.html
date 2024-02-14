@@ -18,59 +18,59 @@
         <section>
             <div class="min-h-svh bg-slate-600 bg-[url(./images/background.png)] bg-no-repeat bg-center">
                 <!-- pay now section starts -->
-                <div id="playnow-section" class="flex justify-center items-center text-center h-screen text-white hidden">
+                <div id="playnow-section" class="flex justify-center items-center text-center h-screen text-white">
                     <div>
                         <h1 class="text-[120px] font-extrabold tracking-tight">ALPHABET CLASH</h1>
                         <p class="text-2xl">Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
-                        <button class="btn text-2xl mt-8">Play Now</button>
+                        <button id="play-now-section" class="btn text-2xl mt-8">Play Now</button>
                     </div>
                 </div>
                 <!-- pay now section ends -->
                 
                 <!-- kbd section starts -->
-                <div class="flex justify-center items-center text-center h-screen hidden">
+                <div id="play-typing-section" class="flex justify-center items-center text-center h-screen hidden">
                     <div>
                         <div class="bg-[#FFFFFFB3] border-[18px] border-[#2F2941] rounded-2xl">
                             <div class="artboard artboard-horizontal phone-6">
                                 <h1 class="bg-[#2F2941] rounded-b-xl text-white w-2/4 mx-auto pb-3 ">Don't watch keyboard  while playing...</h1>
                                 <div class="flex justify-center items-center h-full">
-                                    <span class="font-semibold text-[120px] -mt-14">Y</span>
+                                    <span id="letterGenerate" class="font-semibold text-[120px] -mt-14 uppercase">Y</span>
                                 </div>
                             </div>
                         </div>
                         <!-- kbd  -->
-                        <div class="flex justify-center gap-3 my-2 w-full mt-16">
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">q</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">w</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">e</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">r</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">t</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">y</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">u</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">i</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">o</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">p</kbd>
+                        <div id="kbd-section" class="flex justify-center gap-3 my-2 w-full mt-16">
+                            <kbd id="q" class="kbd p-2 px-5 text-xl font-semibold">q</kbd>
+                            <kbd id="w" class="kbd p-2 px-5 text-xl font-semibold">w</kbd>
+                            <kbd id="e" class="kbd p-2 px-5 text-xl font-semibold">e</kbd>
+                            <kbd id="r" class="kbd p-2 px-5 text-xl font-semibold">r</kbd>
+                            <kbd id="t" class="kbd p-2 px-5 text-xl font-semibold">t</kbd>
+                            <kbd id="y" class="kbd p-2 px-5 text-xl font-semibold">y</kbd>
+                            <kbd id="u" class="kbd p-2 px-5 text-xl font-semibold">u</kbd>
+                            <kbd id="i" class="kbd p-2 px-5 text-xl font-semibold">i</kbd>
+                            <kbd id="o" class="kbd p-2 px-5 text-xl font-semibold">o</kbd>
+                            <kbd id="p" class="kbd p-2 px-5 text-xl font-semibold">p</kbd>
                           </div> 
                           <div class="flex justify-center gap-3 my-2 w-full">
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">a</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">s</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">d</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">f</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">g</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">h</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">j</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">k</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">l</kbd>
+                            <kbd id="a" class="kbd p-2 px-5 text-xl font-semibold">a</kbd>
+                            <kbd id="s" class="kbd p-2 px-5 text-xl font-semibold">s</kbd>
+                            <kbd id="d" class="kbd p-2 px-5 text-xl font-semibold">d</kbd>
+                            <kbd id="f" class="kbd p-2 px-5 text-xl font-semibold">f</kbd>
+                            <kbd id="g" class="kbd p-2 px-5 text-xl font-semibold">g</kbd>
+                            <kbd id="h" class="kbd p-2 px-5 text-xl font-semibold">h</kbd>
+                            <kbd id="j" class="kbd p-2 px-5 text-xl font-semibold">j</kbd>
+                            <kbd id="k" class="kbd p-2 px-5 text-xl font-semibold">k</kbd>
+                            <kbd id="l" class="kbd p-2 px-5 text-xl font-semibold">l</kbd>
                           </div> 
                           <div class="flex justify-center gap-3 my-2 w-full">
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">z</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">x</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">c</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">v</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">b</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">n</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">m</kbd>
-                            <kbd class="kbd p-2 px-5 text-xl font-semibold">/</kbd>
+                            <kbd id="z" class="kbd p-2 px-5 text-xl font-semibold">z</kbd>
+                            <kbd id="x" class="kbd p-2 px-5 text-xl font-semibold">x</kbd>
+                            <kbd id="c" class="kbd p-2 px-5 text-xl font-semibold">c</kbd>
+                            <kbd id="v" class="kbd p-2 px-5 text-xl font-semibold">v</kbd>
+                            <kbd id="b" class="kbd p-2 px-5 text-xl font-semibold">b</kbd>
+                            <kbd id="n" class="kbd p-2 px-5 text-xl font-semibold">n</kbd>
+                            <kbd id="m" class="kbd p-2 px-5 text-xl font-semibold">m</kbd>
+                            <kbd id="/" class="kbd p-2 px-5 text-xl font-semibold">/</kbd>
                           </div>
                           <div class="flex justify-between mt-9">
                             <button class="btn bg-[#894189] text-white rounded-3xl border-none hover:bg-black">
@@ -87,15 +87,17 @@
                     </div>
                 </div>
                 <!-- Again game section starts -->
-                <div id="playnow-section" class="flex justify-center items-center text-center h-screen text-white">
+                <div id="playnow-section" class="flex justify-center items-center text-center h-screen text-white hidden">
                     <div class="bg-orange-700 p-9 rounded-xl">
                         <h1 class="text-7xl font-bold">Score: <span>14</span></h1>
-                        <button class="btn text-2xl mt-8">Play Again</button>
+                        <button id="play-again-btn" class="btn text-2xl mt-8">Play Again</button>
                         <p class="text-2xl pt-6">Practice will make you Pro</p>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+    <script src="./scripts/utility.js"></script>
+    <script src="./scripts/script.js"></script>
 </body>
 </html>
