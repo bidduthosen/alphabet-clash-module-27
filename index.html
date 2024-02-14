@@ -34,7 +34,7 @@
                             <div class="artboard artboard-horizontal phone-6">
                                 <h1 class="bg-[#2F2941] rounded-b-xl text-white w-2/4 mx-auto pb-3 ">Don't watch keyboard  while playing...</h1>
                                 <div class="flex justify-center items-center h-full">
-                                    <span id="letterGenerate" class="font-semibold text-[120px] -mt-14 uppercase">Y</span>
+                                    <span id="random-generate-letter" class="font-semibold text-[120px] -mt-14 uppercase">Y</span>
                                 </div>
                             </div>
                         </div>
@@ -76,20 +76,20 @@
                             <button class="btn bg-[#894189] text-white rounded-3xl border-none hover:bg-black">
                                 Life
                                 <img src="./images/love.png" alt="">
-                                <span>1</span>
+                                <span id="life">5</span>
                             </button>
                             <button class="btn bg-blue-700 text-white rounded-3xl border-none  hover:bg-black">
                                 Score
                                 <img src="./images/dollor.png" alt="">
-                                <span>4</span>
+                                <span id="current-score">0</span>
                             </button>
                           </div>
                     </div>
                 </div>
                 <!-- Again game section starts -->
-                <div id="playnow-section" class="flex justify-center items-center text-center h-screen text-white hidden">
+                <div id="ending-game-section" class="flex justify-center items-center text-center h-screen text-white hidden">
                     <div class="bg-orange-700 p-9 rounded-xl">
-                        <h1 class="text-7xl font-bold">Score: <span>14</span></h1>
+                        <h1 class="text-7xl font-bold">Score: <span id="result-score">0</span></h1>
                         <button id="play-again-btn" class="btn text-2xl mt-8">Play Again</button>
                         <p class="text-2xl pt-6">Practice will make you Pro</p>
                     </div>
