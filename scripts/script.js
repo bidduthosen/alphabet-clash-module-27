@@ -85,8 +85,7 @@ function gameOver(){
     hideElementById('home-screen');
  
     // set last score in game over
-    // const lastScore = document.getElementById('last-score');
-    const currentScore = getElementTextById('current-score')
+    const currentScore = getTextElementValueById('current-score');
     setTextElementValueById('last-score', currentScore)
 
 
