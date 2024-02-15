@@ -1,10 +1,16 @@
 function handleKeyboardButtonPress(event){
     const playerPressed = event.key;
+    console.log('players pressed', playerPressed)
     
     // current alphabet element 
     const currentAlphabetElement = document.getElementById('current-alphabet');
     const currentAlphabetText = currentAlphabetElement.innerText;
     const expectedAlphabet =currentAlphabetText.toLowerCase()
+    
+    // game escape over----------
+    if(playerPressed === 'Escape'){
+        gameOver()
+    }
 
     if(playerPressed === expectedAlphabet){
         //updated score-------------
