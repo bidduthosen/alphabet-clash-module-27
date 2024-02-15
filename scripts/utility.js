@@ -1,18 +1,21 @@
-function addElementById (elementId){
-    const element = document.getElementById(elementId);
-    element.classList.add('hidden')
+// add hidden class
+function hideElementById(elementId){
+    document.getElementById(elementId).classList.add('hidden')
+};
+
+// remove hidden class 
+function showElementById(elementId){
+    document.getElementById(elementId).classList.remove('hidden');
+    
 }
 
-function removeElementById(elementId){
-    const sectionElement = document.getElementById(elementId);
-    sectionElement.classList.remove('hidden')
-}
-
-function setBackgroundColor(id){
-    const elementId = document.getElementById(id);
-    elementId.classList.add('bg-orange-400')
-}
-function removeBackgroundColor(id){
-    const elementId = document.getElementById(id);
-    elementId.classList.remove('bg-orange-400')
+// random alphabet generate return 
+function GetARandomAlphabet(){
+    const alphabets = 'abcdefghijklmnopqrstuvwxyz';
+    const alphabetText = alphabets.split('');
+    
+    // random generate number of index
+    const randomIndex  = Math.round(Math.random() * 25);
+    const alphabet = alphabetText[randomIndex];
+    return alphabet;
 }
